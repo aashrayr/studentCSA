@@ -6,6 +6,16 @@ hide: true
 
 Hi! My name is Aashray Rajagopalan
 
+
+| Role         | Name     | Repo Location                       | Stream                | Repo Name |
+|--------------|----------|-------------------------------------|-----------------------|-----------|
+| Scrum Master | Aashray  | github.com/aashrayr/studentCSA      | upstream (OCS fork)     | student1  |
+| Scrummer     | Akshay   | github.com/jm1021/student           | downstream (fork)   | student1  |
+| Scrummer     | Sai      | github.com/saiseahawks/studentCSA   | downstream (fork)     | student1  |
+| Scrummer     | Anvay    | github.com/AnvayYadav/CSA           | downstream (fork)     | student1  |
+| Scrummer     | Manas    | github.com/manas12709/student       | downstream (fork)     | student1  |
+| Scrummer     | Gurshawn | github.com/Gurbop/CSA_student       | downstream (fork)     | student1  |
+
 ### Development Environment
 
 > Coding starts with tools, explore these tools and procedures with a click.
