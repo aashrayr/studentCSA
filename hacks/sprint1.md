@@ -65,6 +65,20 @@ Looking back, I’m excited about how far I’ve come. From coding the **Pong ga
 
 This project has helped me strengthen my own coding, teaching, and project management skills — and I can’t wait to see how students respond to it.  
 
+<div class="mermaid">
+flowchart TD
+    A[🏓 Start Pong Lesson] --> B[👨‍💻 Build Pong Game]
+    B --> C{🐞 Bug Found?}
+    C -->|Yes| D[📝 Document Issue]
+    D --> E[🔧 Debug & Fix]
+    E --> B
+    C -->|No| F[✅ Working Game]
+    F --> G[📊 Reflect & Blog]
+    G --> H[🚀 Share with Class]
+</div>
+
 ---
 
 👉 Next milestone: **Injecting bugs into Pong and running the first classroom debugging session!**  
+
+
