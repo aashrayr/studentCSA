@@ -14,7 +14,7 @@ author: Aashray R
 ---
 
 ## Proof It Works
-![Proof](image.png)
+![Proof](../images/aashrayhw.png)
 
 ## Struggle :()
 A thing i struggled with in this assignment was keeping track of the teams that were actuall active ong and making sure that they only changed when something failed. First, I didnt know if the active team should switch after every play or only after plays that fail. Working through example help me understand that scoring play allow the same team to continue, while fail ends the turn and switches team.
