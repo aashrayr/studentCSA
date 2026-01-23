@@ -67,78 +67,77 @@ class Scoreboard {
         return score1 + "-" + score2 + "-" + activeTeam;
     }
 }
-
 // Testing the Scoreboard class (DO NOT MODIFY this part unless you change the class, method, or constructer names)
 // DO NOT MODIFY BELOW THIS LINE
-public class Main {
-    public static void main(String[] args) {
-        String info;
 
-        // Step 1
-        Scoreboard game = new Scoreboard("Red", "Blue");
+    public class Main {
+        public static void main(String[] args) {
+            String info;
 
-        // Step 2
-        info = game.getScore();
-        System.out.println("(Step 2) info = " + info);
+            // Step 1
+            Scoreboard game = new Scoreboard("Red", "Blue");
 
-        // Step 3
-        game.recordPlay(1);
+            // Step 2
+            info = game.getScore();
+            System.out.println("(Step 2) info = " + info);
 
-        // Step 4
-        info = game.getScore();
-        System.out.println("(Step 4) info = " + info);
+            // Step 3
+            game.recordPlay(1);
 
-        // Step 5
-        game.recordPlay(0);
+            // Step 4
+            info = game.getScore();
+            System.out.println("(Step 4) info = " + info);
 
-        // Step 6
-        info = game.getScore();
-        System.out.println("(Step 6) info = " + info);
+            // Step 5
+            game.recordPlay(0);
 
-        // Step 7
-        info = game.getScore();
-        System.out.println("(Step 7) info = " + info);
+            // Step 6
+            info = game.getScore();
+            System.out.println("(Step 6) info = " + info);
 
-        // Step 8
-        game.recordPlay(3);
+            // Step 7
+            info = game.getScore();
+            System.out.println("(Step 7) info = " + info);
 
-        // Step 9
-        info = game.getScore();
-        System.out.println("(Step 9) info = " + info);
+            // Step 8
+            game.recordPlay(3);
 
-        // Step 10
-        game.recordPlay(1);
+            // Step 9
+            info = game.getScore();
+            System.out.println("(Step 9) info = " + info);
 
-        // Step 11
-        game.recordPlay(0);
+            // Step 10
+            game.recordPlay(1);
 
-        // Step 12
-        info = game.getScore();
-        System.out.println("(Step 12) info = " + info);
+            // Step 11
+            game.recordPlay(0);
 
-        // Step 13
-        game.recordPlay(0);
+            // Step 12
+            info = game.getScore();
+            System.out.println("(Step 12) info = " + info);
 
-        // Step 14
-        game.recordPlay(4);
+            // Step 13
+            game.recordPlay(0);
 
-        // Step 15
-        game.recordPlay(0);
+            // Step 14
+            game.recordPlay(4);
 
-        // Step 16
-        info = game.getScore();
-        System.out.println("(Step 16) info = " + info);
+            // Step 15
+            game.recordPlay(0);
 
-        // Step 17
-        Scoreboard match = new Scoreboard("Lions", "Tigers");
+            // Step 16
+            info = game.getScore();
+            System.out.println("(Step 16) info = " + info);
 
-        // Step 18
-        info = match.getScore();
-        System.out.println("(Step 18) match info = " + info);
+            // Step 17
+            Scoreboard match = new Scoreboard("Lions", "Tigers");
 
-        // Step 19
-        info = game.getScore();
-        System.out.println("(Step 19) game info = " + info);
+            // Step 18
+            info = match.getScore();
+            System.out.println("(Step 18) match info = " + info);
+
+            // Step 19
+            info = game.getScore();
+            System.out.println("(Step 19) game info = " + info);
+        }
     }
-}
-
